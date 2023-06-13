@@ -16,7 +16,7 @@ function login() {
   var name2 = localStorage.getItem("name1");
   var password2 = localStorage.getItem("password1");
   if (name1 == name2 && password1 == password2) {
-    window.location.href = "product.html";
+    window.location.href = "index.html";
   } else {
     alert("incorrect");
   }
